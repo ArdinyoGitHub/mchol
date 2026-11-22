@@ -1,0 +1,13 @@
+{
+  "_fv": 92,
+  "_type": "itemextension",
+  "definition": {
+    "item": "CUSTOM:ZephyraBlueLeaves",
+    "enableFuel": false,
+    "fuelPower": {
+      "fixedValue": 1600.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.3
+  }
+}

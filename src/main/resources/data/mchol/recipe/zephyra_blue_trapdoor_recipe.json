@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "mchol:zephyra_blue_planks"
+  },
+  "result": {
+    "id": "mchol:zephyra_blue_trapdoor",
+    "count": 2
+  }
+}

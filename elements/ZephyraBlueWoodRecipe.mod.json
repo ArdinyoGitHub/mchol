@@ -1,0 +1,31 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      "CUSTOM:ZephyraBlueLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:ZephyraBlueLog",
+      "CUSTOM:ZephyraBlueLog",
+      "",
+      "CUSTOM:ZephyraBlueLog",
+      "CUSTOM:ZephyraBlueLog",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraBlueWood",
+    "name": "zephyra_blue_wood_recipe",
+    "namespace": "mod"
+  }
+}

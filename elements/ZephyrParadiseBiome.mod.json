@@ -1,0 +1,117 @@
+{
+  "_fv": 92,
+  "_type": "biome",
+  "definition": {
+    "name": "Zephyr Paradise Biome",
+    "groundBlock": "CUSTOM:ZephyrMain",
+    "undergroundBlock": "CUSTOM:ZephyrStone",
+    "underwaterBlock": "",
+    "airColor": {
+      "value": -6684673,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -6684673,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16776961,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13369600,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13369600,
+      "falpha": 0.0
+    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": "EXPLOSION_NORMAL",
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.502,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
+    "treesPerChunk": 6,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 15,
+    "treeStem": "CUSTOM:ZephyraLog",
+    "treeBranch": "CUSTOM:ZephyraLeaves",
+    "treeVines": "Blocks.AIR",
+    "treeFruits": "Blocks.AIR",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ForestFlowers"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "OCEAN",
+    "spawnEntries": [
+      {
+        "entity": "CUSTOM:BlueMyte",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 30,
+        "spawnType": "monster"
+      },
+      {
+        "entity": "CUSTOM:Merk",
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mchol:block/zephyra_slab"
+    },
+    "type=top": {
+      "model": "mchol:block/zephyra_slab_top"
+    },
+    "type=double": {
+      "model": "mchol:block/zephyra_slab_full"
+    }
+  }
+}

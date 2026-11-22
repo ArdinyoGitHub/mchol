@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "mchol:terenne",
+  "spawners": {
+    "type": "mchol:douglas",
+    "weight": 1,
+    "count": 1
+  }
+}

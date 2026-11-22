@@ -1,0 +1,27 @@
+{
+  "_fv": 92,
+  "_type": "structure",
+  "definition": {
+    "structure": "zvillage1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 32,
+    "separation": 8,
+    "restrictionBiomes": [
+      "CUSTOM:ZephyrParadiseBiome",
+      "CUSTOM:Gatlussurface"
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "mchol:block/zephyra_blue_planks",
+    "particle": "mchol:block/zephyra_blue_planks"
+  }
+}

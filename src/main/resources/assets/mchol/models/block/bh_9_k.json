@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mchol:block/bh9kblock",
+    "up": "mchol:block/bh9kblock",
+    "north": "mchol:block/bh9kblock",
+    "east": "mchol:block/bh9kblock",
+    "south": "mchol:block/bh9kblock",
+    "west": "mchol:block/bh9kblock",
+    "particle": "mchol:block/bh9kblock"
+  }
+}

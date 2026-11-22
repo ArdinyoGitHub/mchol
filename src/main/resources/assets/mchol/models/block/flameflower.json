@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mchol:block/images",
+    "particle": "mchol:block/images"
+  }
+}

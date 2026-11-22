@@ -1,0 +1,65 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -13434829,
+    "grass_color": -13434829,
+    "water_color": -10092442
+  },
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "mchol:gatlus"
+    },
+    "minecraft:visual/sky_color": -13434829,
+    "minecraft:visual/fog_color": -13434829,
+    "minecraft:visual/water_fog_color": -10092442,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "monster": [],
+          "creature": [],
+          "ambient": [],
+          "axolotls": [],
+          "underground_water_creature": [],
+          "water_creature": [],
+          "water_ambient": [],
+          "misc": []
+        },
+        "spawn_costs": {}
+      }
+    }
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_infested"
+    ],
+    [],
+    [
+      "mchol:gatlussurface_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

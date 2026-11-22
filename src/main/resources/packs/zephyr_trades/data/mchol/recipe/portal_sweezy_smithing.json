@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "mchol:portal_unit",
+  "base": "mchol:sweezy",
+  "result": {
+    "id": "mchol:portal_sweezy"
+  }
+}

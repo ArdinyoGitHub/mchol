@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mchol:block/gatlusoild",
+    "up": "mchol:block/gatlusoild",
+    "north": "mchol:block/gatlusoild",
+    "east": "mchol:block/gatlusoild",
+    "south": "mchol:block/gatlusoild",
+    "west": "mchol:block/gatlusoild",
+    "particle": "mchol:block/gatlusoild"
+  }
+}

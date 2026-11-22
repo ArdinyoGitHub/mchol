@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mchol:block/skyflow",
+    "particle": "mchol:block/skyflow"
+  }
+}

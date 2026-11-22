@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["mchol:zephyr_paradise_biome", "mchol:zephyr_paradise_biome_2"],
+  "spawners": {
+    "type": "mchol:krubis",
+    "weight": 1,
+    "count": 1
+  }
+}

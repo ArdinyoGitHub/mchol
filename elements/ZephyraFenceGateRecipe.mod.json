@@ -1,0 +1,29 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_fence_gate",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:ZephyraPlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:ZephyraPlanks",
+      "Items.STICK"
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraFenceGate",
+    "name": "zephyra_fence_gate_recipe",
+    "namespace": "mod"
+  }
+}

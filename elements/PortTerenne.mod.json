@@ -1,0 +1,68 @@
+{
+  "_fv": 92,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:Terenne"
+    ],
+    "biomesInDimensionCaves": [
+      "desert"
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": "Blocks.RED_SANDSTONE#0",
+    "fluidBlock": "Blocks.CAVE_AIR",
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192,
+    "skyType": "END",
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": true,
+    "skyboxTextureUp": "p",
+    "skyboxTextureDown": "p5",
+    "skyboxTextureNorth": "p3",
+    "skyboxTextureSouth": "p5",
+    "skyboxTextureWest": "p2",
+    "skyboxTextureEast": "p4",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": "",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 0,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Port Terenne Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

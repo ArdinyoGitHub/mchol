@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "mchol:block/zephyra_planks",
+    "bottom": "mchol:block/zephyra_planks",
+    "top": "mchol:block/zephyra_planks",
+    "side": "mchol:block/zephyra_planks"
+  }
+}

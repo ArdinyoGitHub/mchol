@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "mchol:zephyr_paradise_biome",
+  "features": "mchol:ze_2",
+  "step": "surface_structures"
+}

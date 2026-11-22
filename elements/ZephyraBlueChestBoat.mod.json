@@ -1,0 +1,14 @@
+{
+  "_fv": 92,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "ChestBoat",
+    "name": "Zephyra Blue Boat with Chest",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "entityTexture": "zephyra_blue_chest_boat",
+    "itemTexture": "zephyra_blue_chest_boat"
+  }
+}

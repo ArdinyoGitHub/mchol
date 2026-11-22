@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mchol:block/zephyra_blue_log",
+    "particle": "mchol:block/zephyra_blue_log"
+  }
+}

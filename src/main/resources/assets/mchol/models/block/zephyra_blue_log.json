@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mchol:block/zephyra_blue_log_top",
+    "up": "mchol:block/zephyra_blue_log_top",
+    "north": "mchol:block/zephyra_blue_log",
+    "east": "mchol:block/zephyra_blue_log",
+    "south": "mchol:block/zephyra_blue_log",
+    "west": "mchol:block/zephyra_blue_log",
+    "particle": "mchol:block/zephyra_blue_log"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "mchol:zephyra_blue_planks"
+  ],
+  "result": {
+    "id": "mchol:zephyra_blue_button",
+    "count": 1
+  }
+}

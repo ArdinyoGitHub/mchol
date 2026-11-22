@@ -1,0 +1,31 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "hanging_sign",
+    "unlockingItems": [
+      "CUSTOM:StrippedZephyraBlueLog"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueLog"
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraBlueHangingSign",
+    "name": "zephyra_blue_hanging_sign_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "mchol:zephyra_blue_planks"
+  },
+  "result": {
+    "id": "mchol:zephyra_blue_slab",
+    "count": 6
+  }
+}

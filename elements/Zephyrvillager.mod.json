@@ -1,0 +1,12 @@
+{
+  "_fv": 92,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Zephyrvillager",
+    "pointOfInterest": "CUSTOM:ZephyrCobbleStone",
+    "actionSound": "entity.villager.yes",
+    "hat": "Partial",
+    "professionTextureFile": "4614338367193088.png",
+    "zombifiedProfessionTextureFile": "zephyrvillager1z.png"
+  }
+}

@@ -1,0 +1,59 @@
+plugins {
+    id 'eclipse'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = '1.0'
+base.archivesName = "modid"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+neoForge {
+    version = "26.3.0.38-beta"
+
+    runs {
+        client {
+            client()
+            // Minecraft's strict render validation is IDE-only; Iris 1.11.7 trips it (CenterDepthSampler) while a normal client never runs it
+            systemProperty 'neoforge.disableBlaze3DValidation', 'true'
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
+        }
+        server {
+            server()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        mcreator {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+apply from: 'mcreator.gradle'
+
+// Hand-written: MCreator rewrites META-INF/neoforge.mods.toml on every build with its own minimum NeoForge
+// (26.3.0.99). Lower it while copying resources, so the dev client and the built jar also run on older 26.3
+// NeoForge builds (Sodium 0.9.2 + Iris 1.11.7, the only working shader combo, need NeoForge <= 26.3.0.64-beta).
+def minNeoForge = '26.3.0.38-beta'
+tasks.named('processResources') {
+    inputs.property('minNeoForge', minNeoForge)
+    filesMatching('META-INF/neoforge.mods.toml') {
+        filter { line -> line.replaceAll(/versionRange\s*=\s*"\[26\.3\.0\.[0-9]+(-beta)?,\)"/, "versionRange=\"[${minNeoForge},)\"") }
+    }
+}

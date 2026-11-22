@@ -1,0 +1,7 @@
+{
+  "parent": "mchol:custom/kenny2",
+  "textures": {
+    "0": "mchol:block/kenny2",
+    "particle": "mchol:item/kenny"
+  }
+}

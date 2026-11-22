@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mchol:block/zephyrleave",
+    "particle": "mchol:block/zephyrleave"
+  }
+}

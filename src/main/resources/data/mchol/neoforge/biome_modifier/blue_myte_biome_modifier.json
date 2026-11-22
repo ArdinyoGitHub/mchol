@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "mchol:zephyr_paradise_biome",
+  "spawners": {
+    "type": "mchol:blue_myte",
+    "weight": 20,
+    "count": 3
+  }
+}

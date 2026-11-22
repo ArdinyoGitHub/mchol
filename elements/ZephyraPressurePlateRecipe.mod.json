@@ -1,0 +1,29 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_pressure_plate",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:ZephyraPlanks",
+      "CUSTOM:ZephyraPlanks",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraPressurePlate",
+    "name": "zephyra_pressure_plate_recipe",
+    "namespace": "mod"
+  }
+}

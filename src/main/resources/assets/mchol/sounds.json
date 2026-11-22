@@ -1,0 +1,75 @@
+{
+  "zephyrtobacco": {
+    "subtitle": "subtitles.zephyrtobacco",
+    "sounds": [
+      {
+        "name": "mchol:ytmp3-converter.com_320kbps-zephyr",
+        "stream": false
+      }
+    ]
+  },
+  "gushot": {
+    "sounds": [
+      {
+        "name": "mchol:gushot",
+        "stream": false
+      }
+    ]
+  },
+  "creatureshot": {
+    "sounds": [
+      {
+        "name": "mchol:creatureshot",
+        "stream": false
+      }
+    ]
+  },
+  "kennyshot": {
+    "sounds": [
+      {
+        "name": "mchol:kennyshot",
+        "stream": false
+      }
+    ]
+  },
+  "sweezyshot": {
+    "sounds": [
+      {
+        "name": "mchol:sweezyshot",
+        "stream": false
+      }
+    ]
+  },
+  "gatlus": {
+    "sounds": [
+      {
+        "name": "mchol:gatlus",
+        "stream": false
+      }
+    ]
+  },
+  "sweezsyshot": {
+    "sounds": [
+      {
+        "name": "mchol:sweezyshot",
+        "stream": false
+      }
+    ]
+  },
+  "zephyrs": {
+    "sounds": [
+      {
+        "name": "mchol:ytmp3-converter.com_320kbps-zephyr",
+        "stream": false
+      }
+    ]
+  },
+  "portterenne": {
+    "sounds": [
+      {
+        "name": "mchol:port-terrene",
+        "stream": false
+      }
+    ]
+  }
+}

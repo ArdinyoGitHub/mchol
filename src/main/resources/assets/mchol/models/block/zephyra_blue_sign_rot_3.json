@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_sign_rot_3",
+  "textures": {
+    "all": "mchol:block/signs/zephyra_blue_sign",
+    "particle": "mchol:block/zephyra_blue_planks"
+  }
+}

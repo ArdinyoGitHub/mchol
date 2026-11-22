@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mchol:block/zephyrcobble",
+    "up": "mchol:block/zephyrcobble",
+    "north": "mchol:block/zephyrcobble",
+    "east": "mchol:block/zephyrcobble",
+    "south": "mchol:block/zephyrcobble",
+    "west": "mchol:block/zephyrcobble",
+    "particle": "mchol:block/zephyrcobble"
+  }
+}

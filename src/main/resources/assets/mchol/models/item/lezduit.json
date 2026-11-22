@@ -1,0 +1,7 @@
+{
+  "parent": "mchol:custom/lezduit",
+  "textures": {
+    "0": "mchol:block/lezduit",
+    "particle": "mchol:item/kennyitem"
+  }
+}

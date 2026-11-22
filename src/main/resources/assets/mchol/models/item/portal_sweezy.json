@@ -1,0 +1,7 @@
+{
+  "parent": "mchol:custom/sweezy2",
+  "textures": {
+    "0": "mchol:block/portalmod",
+    "particle": "mchol:item/kennyitem"
+  }
+}

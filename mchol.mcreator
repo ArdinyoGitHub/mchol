@@ -1,0 +1,2678 @@
+{
+  "mod_elements": [
+    {
+      "name": "Kenny",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kenny",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/item/KennyItem.java",
+          "src/main/resources/assets/mchol/models/item/kenny.json",
+          "src/main/resources/assets/mchol/items/kenny.json"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "Gus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/gus.json",
+          "src/main/resources/assets/mchol/models/item/gus.json",
+          "src/main/java/net/mcreator/mchol/item/GusItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "Sweezy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweezy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/sweezy.json",
+          "src/main/resources/assets/mchol/items/sweezy.json",
+          "src/main/java/net/mcreator/mchol/item/SweezyItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "Creaturee",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creaturee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/creaturee.json",
+          "src/main/java/net/mcreator/mchol/item/CreatureeItem.java",
+          "src/main/resources/assets/mchol/items/creaturee.json"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "ZephyrMain",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_main",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyr_main.json",
+          "src/main/resources/assets/mchol/blockstates/zephyr_main.json",
+          "src/main/resources/assets/mchol/models/block/zephyr_main.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyrMainBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyr_main.json",
+          "src/main/resources/assets/mchol/items/zephyr_main.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ZephyrParadiseBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_paradise_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/placed_feature/zephyr_paradise_biome_tree.json",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiomeLeaveDecorator.java",
+          "src/main/resources/data/mchol/worldgen/biome/zephyr_paradise_biome.json",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiomeTrunkDecorator.java",
+          "src/main/resources/data/mchol/worldgen/feature/zephyr_paradise_biome_tree.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Glob",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/GlobEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/CrystalEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ZephyrLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/ZephyrLeavesBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyr_leaves.json",
+          "src/main/resources/assets/mchol/models/item/zephyr_leaves.json",
+          "src/main/resources/assets/mchol/models/block/zephyr_leaves.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyr_leaves.json",
+          "src/main/resources/assets/mchol/items/zephyr_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Zephyrtree",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyrtree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/template_pool/zephyrtree.json",
+          "src/main/resources/data/mchol/worldgen/structure_set/zephyrtree.json",
+          "src/main/resources/data/mchol/worldgen/structure/zephyrtree.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Zephyrtree2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyrtree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/template_pool/zephyrtree_2.json",
+          "src/main/resources/data/mchol/worldgen/structure_set/zephyrtree_2.json",
+          "src/main/resources/data/mchol/worldgen/structure/zephyrtree_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Bluegrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluegrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/bluegrass.json",
+          "src/main/resources/data/mchol/worldgen/feature/bluegrass.json",
+          "src/main/resources/assets/mchol/blockstates/bluegrass.json",
+          "src/main/resources/assets/mchol/models/item/bluegrass.json",
+          "src/main/java/net/mcreator/mchol/block/BluegrassBlock.java",
+          "src/main/resources/data/mchol/worldgen/placed_feature/bluegrass.json",
+          "src/main/resources/data/mchol/neoforge/biome_modifier/bluegrass_biome_modifier.json",
+          "src/main/resources/data/mchol/loot_table/blocks/bluegrass.json",
+          "src/main/resources/assets/mchol/models/block/bluegrass.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Skyflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/blockstates/skyflower.json",
+          "src/main/resources/data/mchol/worldgen/feature/skyflower.json",
+          "src/main/resources/assets/mchol/items/skyflower.json",
+          "src/main/resources/assets/mchol/models/item/skyflower.json",
+          "src/main/java/net/mcreator/mchol/block/SkyflowerBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/skyflower.json",
+          "src/main/resources/assets/mchol/models/block/skyflower.json",
+          "src/main/resources/data/mchol/neoforge/biome_modifier/skyflower_biome_modifier.json",
+          "src/main/resources/data/mchol/worldgen/placed_feature/skyflower.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Flameflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flameflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/flameflower.json",
+          "src/main/java/net/mcreator/mchol/block/FlameflowerBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/flameflower.json",
+          "src/main/resources/data/mchol/worldgen/placed_feature/flameflower.json",
+          "src/main/resources/assets/mchol/models/item/flameflower.json",
+          "src/main/resources/assets/mchol/blockstates/flameflower.json",
+          "src/main/resources/assets/mchol/items/flameflower.json",
+          "src/main/resources/data/mchol/neoforge/biome_modifier/flameflower_biome_modifier.json",
+          "src/main/resources/data/mchol/worldgen/feature/flameflower.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "GusGlob",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gus_glob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/GusGlobEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SweezyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweezy_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/SweezyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GusRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gus_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/GusRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CreatureChildren",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creature_children",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/CreatureChildrenEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Overworldtp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworldtp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/OverworldtpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Nethertp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethertp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/NethertpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Endtp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endtp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/EndtpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Zepyhrtp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zepyhrtp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/ZepyhrtpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BountyHunter9000GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter_9000_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/client/gui/BountyHunter9000GUIScreen.java",
+          "src/main/java/net/mcreator/mchol/network/BountyHunter9000GUIButtonMessage.java",
+          "src/main/java/net/mcreator/mchol/world/inventory/BountyHunter9000GUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Bh9kopen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bh_9kopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/Bh9kopenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BH9K",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bh_9_k",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/BH9KBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/bh_9_k.json",
+          "src/main/resources/assets/mchol/models/item/bh_9_k.json",
+          "src/main/resources/assets/mchol/items/bh_9_k.json",
+          "src/main/resources/assets/mchol/blockstates/bh_9_k.json",
+          "src/main/resources/assets/mchol/models/block/bh_9_k.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Corrupteddirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupteddirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/CorrupteddirtBlock.java",
+          "src/main/resources/assets/mchol/blockstates/corrupteddirt.json",
+          "src/main/resources/assets/mchol/items/corrupteddirt.json",
+          "src/main/resources/assets/mchol/models/item/corrupteddirt.json",
+          "src/main/resources/assets/mchol/models/block/corrupteddirt.json",
+          "src/main/resources/data/mchol/loot_table/blocks/corrupteddirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Gatlussurface",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gatlussurface",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/feature/gatlussurface_tree.json",
+          "src/main/resources/data/mchol/worldgen/biome/gatlussurface.json",
+          "src/main/resources/data/mchol/worldgen/placed_feature/gatlussurface_tree.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Gatlustp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gatlustp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/GatlustpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Merk",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/client/renderer/MerkRenderer.java",
+          "src/main/java/net/mcreator/mchol/entity/MerkEntity.java",
+          "src/main/resources/assets/mchol/models/item/merk_spawn_egg.json",
+          "src/main/resources/assets/mchol/items/merk_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GoopSuckGus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goop_suck_gus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/goop_suck_gus.json",
+          "src/main/resources/assets/mchol/items/goop_suck_gus.json",
+          "src/main/java/net/mcreator/mchol/item/GoopSuckGusItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "MultiGlobKenny",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_glob_kenny",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/item/MultiGlobKennyItem.java",
+          "src/main/resources/assets/mchol/models/item/multi_glob_kenny.json",
+          "src/main/resources/assets/mchol/items/multi_glob_kenny.json"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "Glob2",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glob_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/Glob2Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Glob3",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glob_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/Glob3Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "PortalSweezy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_sweezy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/item/PortalSweezyItem.java",
+          "src/main/resources/assets/mchol/models/item/portal_sweezy.json",
+          "src/main/resources/assets/mchol/items/portal_sweezy.json"
+        ]
+      }
+    },
+    {
+      "name": "Terenne",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terenne",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/feature/terenne_tree.json",
+          "src/main/resources/data/mchol/worldgen/biome/terenne.json",
+          "src/main/resources/data/mchol/worldgen/placed_feature/terenne_tree.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "BountyHunter",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/bounty_hunter_helmet.json",
+          "src/main/resources/assets/mchol/items/bounty_hunter_leggings.json",
+          "src/main/resources/assets/mchol/items/bounty_hunter_boots.json",
+          "src/main/java/net/mcreator/mchol/item/BountyHunterItem.java",
+          "src/main/resources/assets/mchol/equipment/bounty_hunter.json",
+          "src/main/resources/assets/mchol/models/item/bounty_hunter_leggings.json",
+          "src/main/java/net/mcreator/mchol/client/renderer/item/BountyHunterArmor.java",
+          "src/main/resources/assets/mchol/items/bounty_hunter_chestplate.json",
+          "src/main/resources/assets/mchol/models/item/bounty_hunter_boots.json",
+          "src/main/resources/assets/mchol/models/item/bounty_hunter_chestplate.json",
+          "src/main/resources/assets/mchol/models/item/bounty_hunter_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "HighOnLife",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_on_life",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Portp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/PortpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ZephyrParadise",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_paradise",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/world/dimension/ZephyrParadiseDimension.java",
+          "src/main/resources/data/mchol/dimension_type/zephyr_paradise.json",
+          "src/main/resources/data/mchol/timeline/zephyr_paradise_effects.json",
+          "src/main/resources/data/mchol/dimension/zephyr_paradise.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "PortTerenne",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "port_terenne",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/dimension/port_terenne.json",
+          "src/main/resources/data/mchol/dimension_type/port_terenne.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Gatlus",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gatlus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/dimension_type/gatlus.json",
+          "src/main/resources/data/mchol/dimension/gatlus.json",
+          "src/main/resources/data/mchol/timeline/gatlus_effects.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "ZephyrStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyr_stone.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyrStoneBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyr_stone.json",
+          "src/main/resources/assets/mchol/items/zephyr_stone.json",
+          "src/main/resources/assets/mchol/models/item/zephyr_stone.json",
+          "src/main/resources/assets/mchol/models/block/zephyr_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BountyHunterChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/BountyHunterChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "BountyHunterBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/BountyHunterBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "JetpackOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/JetpackOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "Zephyrvillage1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyrvillage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/structure_set/zephyrvillage_1.json",
+          "src/main/resources/data/mchol/worldgen/structure/zephyrvillage_1.json",
+          "src/main/resources/data/mchol/worldgen/template_pool/zephyrvillage_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ZephyrCobbleStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_cobble_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyr_cobble_stone.json",
+          "src/main/resources/assets/mchol/models/block/zephyr_cobble_stone.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyrCobbleStoneBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyr_cobble_stone.json",
+          "src/main/resources/assets/mchol/items/zephyr_cobble_stone.json",
+          "src/main/resources/assets/mchol/blockstates/zephyr_cobble_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Zephyrvillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyrvillager",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/trade_set/zephyrvillager/level_2.json",
+          "src/main/resources/data/mchol/trade_set/zephyrvillager/level_3.json",
+          "src/main/resources/data/mchol/trade_set/zephyrvillager/level_4.json",
+          "src/main/resources/assets/mchol/textures/entity/villager/profession/zephyrvillager.png.mcmeta",
+          "src/main/resources/data/mchol/trade_set/zephyrvillager/level_1.json",
+          "src/main/resources/data/mchol/trade_set/zephyrvillager/level_5.json"
+        ]
+      }
+    },
+    {
+      "name": "KennyCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kenny_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/KennyCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "KennyRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kenny_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/KennyRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "ZephyrParadisePlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_paradise_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/ZephyrParadisePlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "BountyHunterHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/BountyHunterHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Chestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/ChestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BountyHunterLeggingsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounty_hunter_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/BountyHunterLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Gatteraltype1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gatteraltype_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/item/Gatteraltype1Item.java",
+          "src/main/resources/assets/mchol/items/gatteraltype_3.json",
+          "src/main/resources/assets/mchol/models/item/gatteraltype_3.json"
+        ]
+      }
+    },
+    {
+      "name": "GustemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gustem_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/GustemInHandTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "KennyInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenny_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/KennyInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlueMyte",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_myte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/BlueMyteEntity.java",
+          "src/main/resources/assets/mchol/items/blue_myte_spawn_egg.json",
+          "src/main/resources/data/mchol/neoforge/biome_modifier/blue_myte_biome_modifier.json",
+          "src/main/resources/assets/mchol/models/item/blue_myte_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/client/renderer/BlueMyteRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Ze2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ze_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/placed_feature/ze_2.json",
+          "src/main/resources/data/mchol/worldgen/feature/ze_2.json",
+          "src/main/resources/data/mchol/neoforge/biome_modifier/ze_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/ZephyraWoodBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_wood.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_wood.json",
+          "src/main/resources/assets/mchol/items/zephyra_wood.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_wood.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_wood.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyra_log.json",
+          "src/main/resources/assets/mchol/items/zephyra_log.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_log.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_log.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraLogBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_log.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/zephyra_planks.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_planks.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_planks.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraPlanksBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyra_planks.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_planks.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_leaves.json",
+          "src/main/resources/assets/mchol/items/zephyra_leaves.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_leaves.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_leaves.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraLeavesBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyra_leaves.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_stairs.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_stairs.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_stairs.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_stairs.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_stairs_inner.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_stairs_outer.json",
+          "src/main/resources/assets/mchol/items/zephyra_stairs.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraStairsBlock.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyra_slab.json",
+          "src/main/resources/assets/mchol/items/zephyra_slab.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_slab.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_slab_top.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_slab_full.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraSlabBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyra_slab.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_slab.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_post.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_fence.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_fence.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_fence.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_fence.json",
+          "src/main/resources/assets/mchol/items/zephyra_fence.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_inventory.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraFenceBlock.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_gate_wall_open.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_fence_gate.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraFenceGateBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_fence_gate.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_gate_wall.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_gate_open.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_fence_gate.json",
+          "src/main/resources/assets/mchol/items/zephyra_fence_gate.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_fence_gate.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_pressure_plate.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_pressure_plate.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraPressurePlateBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_pressure_plate.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_pressure_plate.json",
+          "src/main/resources/assets/mchol/items/zephyra_pressure_plate.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_button_pressed.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraButtonBlock.java",
+          "src/main/resources/assets/mchol/items/zephyra_button.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_button_inventory.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_button.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_button.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_button.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_button.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_wood_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_slab_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_fence_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_button_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_stick_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyrParadiseBiome2",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyr_paradise_biome_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/biome/zephyr_paradise_biome_2.json",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiome2LeaveDecorator.java",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiome2TrunkDecorator.java",
+          "src/main/java/net/mcreator/mchol/world/features/treedecorators/ZephyrParadiseBiome2FruitDecorator.java",
+          "src/main/resources/data/mchol/worldgen/placed_feature/zephyr_paradise_biome_2_tree.json",
+          "src/main/resources/data/mchol/worldgen/feature/zephyr_paradise_biome_2_tree.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Testentity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testentity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/testentity_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/client/renderer/TestentityRenderer.java",
+          "src/main/java/net/mcreator/mchol/entity/TestentityEntity.java",
+          "src/main/resources/assets/mchol/items/testentity_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "JetpackOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/JetpackOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JetpackOnKeyReleasedd",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_on_key_releasedd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/JetpackOnKeyReleaseddProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Jetpack",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/network/JetpackMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Zephyrvillage2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyrvillage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/worldgen/structure/zephyrvillage_2.json",
+          "src/main/resources/data/mchol/worldgen/structure_set/zephyrvillage_2.json",
+          "src/main/resources/data/mchol/worldgen/template_pool/zephyrvillage_2.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "ZephyraBlueLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_log.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueLogBlock.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_wood.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_wood.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueWoodBlock.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "StrippedZephyraBlueLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zephyra_blue_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/StrippedZephyraBlueLogBlock.java",
+          "src/main/resources/assets/mchol/blockstates/stripped_zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/models/block/stripped_zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/items/stripped_zephyra_blue_log.json",
+          "src/main/resources/assets/mchol/models/item/stripped_zephyra_blue_log.json",
+          "src/main/resources/data/mchol/loot_table/blocks/stripped_zephyra_blue_log.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "StrippedZephyraBlueWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zephyra_blue_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/StrippedZephyraBlueWoodBlock.java",
+          "src/main/resources/assets/mchol/items/stripped_zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/models/item/stripped_zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/blockstates/stripped_zephyra_blue_wood.json",
+          "src/main/resources/data/mchol/loot_table/blocks/stripped_zephyra_blue_wood.json",
+          "src/main/resources/assets/mchol/models/block/stripped_zephyra_blue_wood.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBluePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_planks.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_planks.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_planks.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_planks.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_planks.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBluePlanksBlock.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_leaves.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_leaves.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_leaves.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_leaves.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueLeavesBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_leaves.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_stairs.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_stairs.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueStairsBlock.java",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_stairs.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_stairs.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_stairs.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_stairs_outer.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_stairs_inner.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_slab.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_slab_top.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_slab.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_slab.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_slab.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_slab_full.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueSlabBlock.java",
+          "src/main/resources/assets/mchol/items/zephyra_blue_slab.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/zephyra_blue_fence.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_inventory.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueFenceBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_fence.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_fence.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_post.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_fence.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_gate_open.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_fence_gate.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueFenceGateBlock.java",
+          "src/main/resources/assets/mchol/items/zephyra_blue_fence_gate.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_gate_wall_open.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_fence_gate.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_gate.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_fence_gate_wall.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_fence_gate.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/zephyra_blue_door.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_bottom_right.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_top_left.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_top_right.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_top_right_open.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_bottom_right_open.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_top_left_open.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_bottom_left.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueDoorBlock.java",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_door.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_door.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_door_bottom_left_open.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_door.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_trapdoor.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueTrapdoorBlock.java",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_trapdoor.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_trapdoor.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_trapdoor.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_trapdoor.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_trapdoor_top.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_trapdoor_open.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBluePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_pressure_plate.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBluePressurePlateBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_pressure_plate_down.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_pressure_plate.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_pressure_plate.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_pressure_plate.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_pressure_plate.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_button.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_button.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_button.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueButtonBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_button_pressed.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_button.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_button.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_button_inventory.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueWallSignBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_sign_rot_1.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_sign.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_wall_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_sign_rot_3.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueSignBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_wall_sign.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_sign_rot_2.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_sign.json",
+          "src/main/resources/assets/mchol/items/zephyra_blue_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_sign_rot_0.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueHangingSignBlock.java",
+          "src/main/resources/assets/mchol/items/zephyra_blue_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_rot_1.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_wall_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_attached_rot_0.json",
+          "src/main/java/net/mcreator/mchol/block/ZephyraBlueWallHangingSignBlock.java",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_attached_rot_2.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_wall_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_rot_3.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_rot_0.json",
+          "src/main/resources/data/mchol/loot_table/blocks/zephyra_blue_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_attached_rot_1.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_rot_2.json",
+          "src/main/resources/assets/mchol/blockstates/zephyra_blue_hanging_sign.json",
+          "src/main/resources/assets/mchol/models/block/zephyra_blue_hanging_sign_attached_rot_3.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/zephyra_blue_boat.json",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_boat.json",
+          "src/main/java/net/mcreator/mchol/entity/ZephyraBlueBoatEntity.java"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/zephyra_blue_chest_boat.json",
+          "src/main/java/net/mcreator/mchol/entity/ZephyraBlueChestBoatEntity.java",
+          "src/main/resources/assets/mchol/models/item/zephyra_blue_chest_boat.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_leaves_composting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/context_int_provider/compostable/zephyra_blue_leaves_composting.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_wood_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_wood_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "StrippedZephyraBlueWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_zephyra_blue_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/stripped_zephyra_blue_wood_recipe.json",
+          "src/main/resources/data/mchol/recipe/stripped_zephyra_blue_wood_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBluePlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_planks_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_planks_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_stairs_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_slab_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_slab_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_fence_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_fence_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_fence_gate_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_door_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_door_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_trapdoor_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBluePressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_pressure_plate_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_button_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_button_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_sign_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_sign_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_hanging_sign_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_hanging_sign_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/recipe/zephyra_blue_boat_recipe.json",
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_boat_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "ZephyraBlueChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zephyra_blue_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mchol/advancement/recipes/zephyra_blue_chest_boat_recipe.json",
+          "src/main/resources/data/mchol/recipe/zephyra_blue_chest_boat_recipe.json"
+        ]
+      },
+      "path": "~/Trees"
+    },
+    {
+      "name": "KennyPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kenny_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/mchol/procedures/KennyPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "Krubis",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krubis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/entity/KrubisEntity.java",
+          "src/main/resources/assets/mchol/models/item/krubis_spawn_egg.json",
+          "src/main/resources/assets/mchol/items/krubis_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/client/renderer/KrubisRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Douglas",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "douglas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/client/renderer/DouglasRenderer.java",
+          "src/main/java/net/mcreator/mchol/entity/DouglasEntity.java",
+          "src/main/resources/assets/mchol/items/douglas_spawn_egg.json",
+          "src/main/resources/assets/mchol/models/item/douglas_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Gene",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gene",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/gene_spawn_egg.json",
+          "src/main/resources/assets/mchol/models/item/gene_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/entity/GeneEntity.java",
+          "src/main/java/net/mcreator/mchol/client/renderer/GeneRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "MrKeeps",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_keeps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/mr_keeps_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/entity/MrKeepsEntity.java",
+          "src/main/java/net/mcreator/mchol/client/renderer/MrKeepsRenderer.java",
+          "src/main/resources/assets/mchol/items/mr_keeps_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "MultiGlobUnit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_glob_unit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/item/MultiGlobUnitItem.java",
+          "src/main/resources/assets/mchol/models/item/multi_glob_unit.json",
+          "src/main/resources/assets/mchol/items/multi_glob_unit.json"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "GoopSuckUnit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goop_suck_unit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/goop_suck_unit.json",
+          "src/main/resources/assets/mchol/items/goop_suck_unit.json",
+          "src/main/java/net/mcreator/mchol/item/GoopSuckUnitItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "PortalUnit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_unit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/items/portal_unit.json",
+          "src/main/resources/assets/mchol/models/item/portal_unit.json",
+          "src/main/java/net/mcreator/mchol/item/PortalUnitItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    },
+    {
+      "name": "CreatureMinion",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creature_minion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mchol/client/renderer/CreatureMinionRenderer.java",
+          "src/main/resources/assets/mchol/items/creature_minion_spawn_egg.json",
+          "src/main/resources/assets/mchol/models/item/creature_minion_spawn_egg.json",
+          "src/main/java/net/mcreator/mchol/entity/CreatureMinionEntity.java"
+        ]
+      },
+      "path": "~/Guns/Projectiles"
+    },
+    {
+      "name": "Lezduit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lezduit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mchol/models/item/lezduit.json",
+          "src/main/resources/assets/mchol/items/lezduit.json",
+          "src/main/java/net/mcreator/mchol/item/LezduitItem.java"
+        ]
+      },
+      "path": "~/Guns"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "zephyrtobacco",
+      "files": [
+        "ytmp3-converter.com_320kbps-zephyr"
+      ],
+      "category": "neutral",
+      "subtitle": "Tobacoo - Zephyr"
+    },
+    {
+      "name": "gushot",
+      "files": [
+        "gushot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "creatureshot",
+      "files": [
+        "creatureshot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "kennyshot",
+      "files": [
+        "kennyshot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sweezyshot",
+      "files": [
+        "sweezyshot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gatlus",
+      "files": [
+        "gatlus"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sweezsyshot",
+      "files": [
+        "sweezyshot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "zephyrs",
+      "files": [
+        "ytmp3-converter.com_320kbps-zephyr"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "portterenne",
+      "files": [
+        "port-terrene"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "VILLAGER_TRADES:mchol:zephyrvillager/level_1": [],
+    "VILLAGER_TRADES:mchol:zephyrvillager/level_2": [],
+    "VILLAGER_TRADES:mchol:zephyrvillager/level_3": [],
+    "VILLAGER_TRADES:mchol:zephyrvillager/level_4": [],
+    "VILLAGER_TRADES:mchol:zephyrvillager/level_5": [],
+    "BLOCKS:mod:zephyra_blue_logs": [
+      "CUSTOM:ZephyraBlueLog",
+      "CUSTOM:ZephyraBlueWood",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:zephyra_blue_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:ZephyraBluePlanks"
+    ],
+    "ITEMS:mod:zephyra_blue_logs": [
+      "CUSTOM:ZephyraBlueLog",
+      "CUSTOM:ZephyraBlueWood",
+      "CUSTOM:StrippedZephyraBlueLog",
+      "CUSTOM:StrippedZephyraBlueWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:zephyra_blue_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:ZephyraBluePlanks"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~ZephyrMain@CUSTOM:ZephyrMain"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~ZephyrParadiseBiome2@CUSTOM:ZephyrParadiseBiome2",
+      "~Terenne@CUSTOM:Terenne",
+      "~ZephyrParadiseBiome@CUSTOM:ZephyrParadiseBiome"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~ZephyrParadiseBiome2@CUSTOM:ZephyrParadiseBiome2",
+      "~ZephyrParadiseBiome@CUSTOM:ZephyrParadiseBiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~ZephyrParadiseBiome2@CUSTOM:ZephyrParadiseBiome2",
+      "~Terenne@CUSTOM:Terenne",
+      "~ZephyrParadiseBiome@CUSTOM:ZephyrParadiseBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
+      "~ZephyrParadiseBiome2@CUSTOM:ZephyrParadiseBiome2",
+      "~ZephyrParadiseBiome@CUSTOM:ZephyrParadiseBiome"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~ZephyraBlueLeaves@CUSTOM:ZephyraBlueLeaves",
+      "~ZephyraLeaves@CUSTOM:ZephyraLeaves",
+      "~ZephyrLeaves@CUSTOM:ZephyrLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~Gatlussurface@CUSTOM:Gatlussurface"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~Terenne@CUSTOM:Terenne",
+      "~Gatlussurface@CUSTOM:Gatlussurface"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~Terenne@CUSTOM:Terenne"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~Terenne@CUSTOM:Terenne"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~Terenne@CUSTOM:Terenne"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~BountyHunter@CUSTOM:BountyHunter.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~BountyHunter@CUSTOM:BountyHunter.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~BountyHunter@CUSTOM:BountyHunter.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~BountyHunter@CUSTOM:BountyHunter.boots"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Gatlus@CUSTOM:Corrupteddirt",
+      "~PortTerenne@Blocks.SMOOTH_RED_SANDSTONE",
+      "~PortTerenne@Blocks.RED_SANDSTONE#0",
+      "~ZephyrParadise@CUSTOM:ZephyrStone",
+      "~ZephyrParadise@CUSTOM:ZephyrMain"
+    ],
+    "POINTS_OF_INTEREST:minecraft:acquirable_job_site": [
+      "~Zephyrvillager@CUSTOM:Zephyrvillager"
+    ],
+    "ENTITIES:minecraft:arthropod": [
+      "~BlueMyte@CUSTOM:BlueMyte"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~ZephyraBlueHangingSign@CUSTOM:ZephyraBlueHangingSign",
+      "~ZephyraBlueHangingSign@CUSTOM:ZephyraBlueHangingSign.wall",
+      "~ZephyraBlueSign@CUSTOM:ZephyraBlueSign.wall",
+      "~ZephyraBlueSign@CUSTOM:ZephyraBlueSign",
+      "~ZephyraBlueButton@CUSTOM:ZephyraBlueButton",
+      "~ZephyraBluePressurePlate@CUSTOM:ZephyraBluePressurePlate",
+      "~ZephyraBlueTrapdoor@CUSTOM:ZephyraBlueTrapdoor",
+      "~ZephyraBlueDoor@CUSTOM:ZephyraBlueDoor",
+      "~ZephyraBlueFenceGate@CUSTOM:ZephyraBlueFenceGate",
+      "~ZephyraBlueFence@CUSTOM:ZephyraBlueFence",
+      "~ZephyraBlueSlab@CUSTOM:ZephyraBlueSlab",
+      "~ZephyraBlueStairs@CUSTOM:ZephyraBlueStairs",
+      "~ZephyraBluePlanks@CUSTOM:ZephyraBluePlanks",
+      "~StrippedZephyraBlueWood@CUSTOM:StrippedZephyraBlueWood",
+      "~StrippedZephyraBlueLog@CUSTOM:StrippedZephyraBlueLog",
+      "~ZephyraBlueWood@CUSTOM:ZephyraBlueWood",
+      "~ZephyraBlueLog@CUSTOM:ZephyraBlueLog",
+      "~ZephyraPlanks@CUSTOM:ZephyraPlanks",
+      "~ZephyraLog@CUSTOM:ZephyraLog",
+      "~ZephyraWood@CUSTOM:ZephyraWood"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~ZephyraBlueStairs@CUSTOM:ZephyraBlueStairs",
+      "~ZephyraStairs@CUSTOM:ZephyraStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~ZephyraBlueSlab@CUSTOM:ZephyraBlueSlab",
+      "~ZephyraSlab@CUSTOM:ZephyraSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~ZephyraBlueFence@CUSTOM:ZephyraBlueFence",
+      "~ZephyraFence@CUSTOM:ZephyraFence"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~ZephyraBluePressurePlate@CUSTOM:ZephyraBluePressurePlate",
+      "~ZephyraPressurePlate@CUSTOM:ZephyraPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~ZephyraBlueButton@CUSTOM:ZephyraBlueButton",
+      "~ZephyraButton@CUSTOM:ZephyraButton"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~ZephyraBlueLeaves@CUSTOM:ZephyraBlueLeaves"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~ZephyraBlueDoor@CUSTOM:ZephyraBlueDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~ZephyraBlueTrapdoor@CUSTOM:ZephyraBlueTrapdoor"
+    ],
+    "BLOCKS:minecraft:standing_signs": [
+      "~ZephyraBlueSign@CUSTOM:ZephyraBlueSign"
+    ],
+    "BLOCKS:minecraft:wall_signs": [
+      "~ZephyraBlueSign@CUSTOM:ZephyraBlueSign.wall"
+    ],
+    "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~ZephyraBlueHangingSign@CUSTOM:ZephyraBlueHangingSign"
+    ],
+    "BLOCKS:minecraft:wall_hanging_signs": [
+      "~ZephyraBlueHangingSign@CUSTOM:ZephyraBlueHangingSign.wall"
+    ],
+    "ENTITIES:minecraft:boat": [
+      "~ZephyraBlueBoat@CUSTOM:ZephyraBlueBoat"
+    ],
+    "ITEMS:minecraft:boats": [
+      "~ZephyraBlueBoat@CUSTOM:ZephyraBlueBoat"
+    ],
+    "ENTITIES:c:boats": [
+      "~ZephyraBlueChestBoat@CUSTOM:ZephyraBlueChestBoat"
+    ],
+    "ITEMS:minecraft:chest_boats": [
+      "~ZephyraBlueChestBoat@CUSTOM:ZephyraBlueChestBoat"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.gatlus": "",
+      "item.mchol.testentity_spawn_egg": "Testentity Spawn Egg",
+      "biome.mchol.terenne": "Terenne",
+      "subtitles.zephyrtobacco": "Tobacoo - Zephyr",
+      "entity.mchol.blue_myte": "Blue Myte",
+      "gui.mchol.bounty_hunter_9000_gui.button_zephyr_paradise": "Zephyr Paradise",
+      "item.mchol.zephyra_stairs": "Zephyra Stairs",
+      "item.mchol.skyflower": "Skyflower",
+      "entity.minecraft.villager.mchol.zephyrvillager": "Zephyrvillager",
+      "biome.mchol.gatlussurface": "Gatlussurface",
+      "item.mchol.bounty_hunter_leggings": "Bounty Hunter Leggings",
+      "gui.mchol.bounty_hunter_9000_gui.button_end": "End",
+      "item.mchol.creaturee": "Creaturee",
+      "biome.mchol.zephyr_paradise_biome_2": "Zephyr Paradise Biome",
+      "gui.mchol.bounty_hunter_9000_gui.button_gatlus": "Gatlus",
+      "key.mchol.jetpack": "Jetpack",
+      "item.mchol.gus": "Gus",
+      "item.mchol.zephyra_fence": "Zephyra Fence",
+      "block.mchol.zephyr_main": "Zephyr Main",
+      "item.mchol.merk_spawn_egg": "Merk Spawn Egg",
+      "item.mchol.sweezy": "Sweezy",
+      "gui.mchol.bounty_hunter_9000_gui.button_overworld": "OverWorld",
+      "item.mchol.bh_9_k": "BH9K",
+      "subtitles.portterenne": "",
+      "subtitles.gushot": "",
+      "item.mchol.multi_glob_kenny": "Mutliglob Kenny",
+      "item.mchol.zephyra_slab": "Zephyra Slab",
+      "block.mchol.corrupteddirt": "Corrupteddirt",
+      "item.mchol.zephyra_wood": "Zephyra Wood",
+      "block.mchol.flameflower": "Flameflower",
+      "item_group.mchol.high_on_life": "High On Life",
+      "item.mchol.corrupteddirt": "Gatlus Soil",
+      "item.mchol.flameflower": "Flameflower",
+      "gui.mchol.bounty_hunter_9000_gui.label_bring_another_bh9k_so_you_dont_g": "Bring another BH9K so you dont get stuck!",
+      "item.mchol.bounty_hunter_boots": "Bounty Hunter Boots",
+      "block.mchol.skyflower": "Skyflower",
+      "entity.mchol.merk": "Merk",
+      "item.mchol.zephyra_log": "Zephyra Log",
+      "entity.mchol.testentity": "Testentity",
+      "subtitles.creatureshot": "",
+      "subtitles.kennyshot": "",
+      "item.mchol.zephyr_cobble_stone": "Zephyr Stone",
+      "block.mchol.zephyr_leaves": "Zephyr Leaves",
+      "item.mchol.kenny": "Kenny",
+      "item.mchol.portal_sweezy": "Portal Sweezy",
+      "item.mchol.zephyr_leaves": "Zephyr Leaves",
+      "item.mchol.bounty_hunter_helmet": "Bounty Hunter Helmet",
+      "item.mchol.gatteraltype_3": "Gatteral Type 3",
+      "item.mchol.zephyra_planks": "Zephyra Planks",
+      "block.mchol.bh_9_k": "BH9K",
+      "subtitles.sweezyshot": "",
+      "block.mchol.bluegrass": "Blue Grass",
+      "block.mchol.zephyr_stone": "Zephyr Stone",
+      "item.mchol.zephyr_main": "Zephyr Main",
+      "item.mchol.goop_suck_gus": "Goop Suck Gus",
+      "subtitles.sweezsyshot": "",
+      "subtitles.zephyrs": "",
+      "item.mchol.bounty_hunter_chestplate": "Bounty Hunter Chestplate",
+      "item.mchol.zephyra_button": "Zephyra Button",
+      "item.mchol.zephyr_stone": "Zephyr Stone",
+      "item.mchol.bluegrass": "Blue Grass",
+      "item.mchol.blue_myte_spawn_egg": "Blue Myte Spawn Egg",
+      "gui.mchol.bounty_hunter_9000_gui.button_nether": "Nether",
+      "item.mchol.zephyra_fence_gate": "Zephyra Fence Gate",
+      "item.mchol.zephyra_pressure_plate": "Zephyra Pressure Plate",
+      "gui.mchol.bounty_hunter_9000_gui.button_port_terenne": "Port Terenne",
+      "biome.mchol.zephyr_paradise_biome": "Zephyr Paradise Biome",
+      "item.mchol.zephyra_leaves": "Zephyra Leaves",
+      "entity.villager.mchol.zephyrvillager": "Zephyrvillager",
+      "item.mchol.zephyra_blue_log": "Zephyra Blue Log",
+      "item.mchol.zephyra_blue_wood": "Zephyra Blue Wood",
+      "item.mchol.stripped_zephyra_blue_log": "Stripped Zephyra Blue Log",
+      "item.mchol.stripped_zephyra_blue_wood": "Stripped Zephyra Blue Wood",
+      "item.mchol.zephyra_blue_planks": "Zephyra Blue Planks",
+      "item.mchol.zephyra_blue_leaves": "Zephyra Blue Leaves",
+      "item.mchol.zephyra_blue_stairs": "Zephyra Blue Stairs",
+      "item.mchol.zephyra_blue_slab": "Zephyra Blue Slab",
+      "item.mchol.zephyra_blue_fence": "Zephyra Blue Fence",
+      "item.mchol.zephyra_blue_fence_gate": "Zephyra Blue Fence Gate",
+      "item.mchol.zephyra_blue_door": "Zephyra Blue Door",
+      "item.mchol.zephyra_blue_trapdoor": "Zephyra Blue Trapdoor",
+      "item.mchol.zephyra_blue_pressure_plate": "Zephyra Blue Pressure Plate",
+      "item.mchol.zephyra_blue_button": "Zephyra Blue Button",
+      "item.mchol.zephyra_blue_sign": "Zephyra Blue Sign",
+      "item.mchol.zephyra_blue_hanging_sign": "Zephyra Blue Hanging Sign",
+      "item.mchol.zephyra_blue_boat": "Zephyra Blue Boat",
+      "entity.mchol.zephyra_blue_boat": "Zephyra Blue Boat",
+      "item.mchol.zephyra_blue_chest_boat": "Zephyra Blue Boat with Chest",
+      "entity.mchol.zephyra_blue_chest_boat": "Zephyra Blue Boat with Chest",
+      "entity.mchol.krubis": "Krubis",
+      "item.mchol.krubis_spawn_egg": "Krubis Spawn Egg",
+      "entity.mchol.douglas": "Douglas",
+      "item.mchol.douglas_spawn_egg": "Douglas Spawn Egg",
+      "entity.mchol.gene": "Gene",
+      "item.mchol.gene_spawn_egg": "Gene Spawn Egg",
+      "entity.mchol.mr_keeps": "Mr. Keeps",
+      "item.mchol.mr_keeps_spawn_egg": "Mr. Keeps Spawn Egg",
+      "item.mchol.multi_glob_unit": "Multi-Glob Unit",
+      "item.mchol.multi_glob_unit.description_0": "Smithing Table: Kenny -\u003e Multi-Glob Kenny",
+      "item.mchol.goop_suck_unit": "Goop Suck Unit",
+      "item.mchol.goop_suck_unit.description_0": "Smithing Table: Gus -\u003e Goop Suck Gus",
+      "item.mchol.portal_unit": "Portal Unit",
+      "item.mchol.portal_unit.description_0": "Smithing Table: Sweezy -\u003e Portal Sweezy",
+      "entity.mchol.creature_minion": "Creature Child",
+      "item.mchol.creature_minion_spawn_egg": "Creature Child Spawn Egg",
+      "item.mchol.lezduit": "Lezduit"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/mchol/init/McholModWoodTypes.java",
+      "src/main/java/net/mcreator/mchol/init/McholModMenus.java",
+      "src/main/java/net/mcreator/mchol/init/McholModScreens.java",
+      "src/main/java/net/mcreator/mchol/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/mchol/client/McholModSkyboxRenderer.java",
+      "src/main/java/net/mcreator/mchol/init/McholModVillagerProfessions.java",
+      "src/main/java/net/mcreator/mchol/init/McholModKeyMappings.java",
+      "src/main/java/net/mcreator/mchol/init/McholModCompostables.java",
+      "src/main/java/net/mcreator/mchol/init/McholModItems.java",
+      "src/main/java/net/mcreator/mchol/init/McholModBlocks.java",
+      "src/main/java/net/mcreator/mchol/init/McholModEntityRenderers.java",
+      "src/main/java/net/mcreator/mchol/init/McholModEntities.java",
+      "src/main/resources/data/neoforge/data_maps/block/flammable.json",
+      "src/main/resources/data/neoforge/data_maps/block/transformables.json",
+      "src/main/java/net/mcreator/mchol/init/McholModDispenseBehaviors.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/mchol/McholMod.java",
+      "src/main/java/net/mcreator/mchol/init/McholModTabs.java",
+      "src/main/resources/assets/mchol/sounds.json",
+      "src/main/java/net/mcreator/mchol/init/McholModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/mchol/init/McholModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Guns",
+        "children": [
+          {
+            "name": "Projectiles",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Plants",
+        "children": []
+      },
+      {
+        "name": "Trees",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mchol",
+    "modName": "MCHOL",
+    "version": "1.0.0",
+    "author": "Ardinyo",
+    "websiteURL": " ",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.3",
+    "credits": "Mod made by Ardinyo",
+    "modElementsPackage": "net.mcreator.mchol"
+  },
+  "mcreatorVersion": 202600344621
+}

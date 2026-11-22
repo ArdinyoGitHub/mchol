@@ -1,0 +1,7 @@
+{
+  "parent": "mchol:custom/gusgun2",
+  "textures": {
+    "1": "mchol:block/goopsuck",
+    "particle": "mchol:item/gud"
+  }
+}

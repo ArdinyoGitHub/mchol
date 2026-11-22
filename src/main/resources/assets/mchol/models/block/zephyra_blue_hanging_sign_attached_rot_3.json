@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_attached_hanging_sign_rot_3",
+  "textures": {
+    "all": "mchol:block/signs/hanging/zephyra_blue_hanging_sign",
+    "particle": "mchol:block/zephyra_blue_planks"
+  }
+}

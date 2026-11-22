@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mchol:block/bluegrass",
+    "particle": "mchol:block/bluegrass"
+  }
+}

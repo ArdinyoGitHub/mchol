@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 16.0
+  },
+  "additional_wants": {
+    "id": "minecraft:iron_ingot",
+    "count": 4.0
+  },
+  "gives": {
+    "id": "mchol:kenny"
+  },
+  "max_uses": 3.0,
+  "reputation_discount": 0.05,
+  "xp": 15.0
+}

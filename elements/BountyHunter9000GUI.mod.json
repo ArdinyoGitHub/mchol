@@ -1,0 +1,123 @@
+{
+  "_fv": 92,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_zephyr_paradise",
+          "text": "Zephyr Paradise",
+          "isUndecorated": false,
+          "onClick": "Zepyhrtp",
+          "width": 103,
+          "height": 20,
+          "x": 138,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gatlus",
+          "text": "Gatlus",
+          "isUndecorated": false,
+          "onClick": "Gatlustp",
+          "width": 56,
+          "height": 20,
+          "x": 137,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nether",
+          "text": "Nether",
+          "isUndecorated": false,
+          "onClick": "Nethertp",
+          "width": 56,
+          "height": 20,
+          "x": 139,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_end",
+          "text": "End",
+          "isUndecorated": false,
+          "onClick": "Endtp",
+          "width": 40,
+          "height": 20,
+          "x": 139,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_overworld",
+          "text": "OverWorld",
+          "isUndecorated": false,
+          "onClick": "Overworldtp",
+          "width": 72,
+          "height": 20,
+          "x": 136,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_port_terenne",
+          "text": "Port Terenne",
+          "isUndecorated": false,
+          "onClick": "Portp",
+          "width": 87,
+          "height": 20,
+          "x": 137,
+          "y": 153,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bring_another_bh9k_so_you_dont_g",
+          "text": {
+            "fixedValue": "Bring another BH9K so you dont get stuck!"
+          },
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 112,
+          "y": 15,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "spacingX": 9,
+      "spacingY": 9,
+      "offsetX": 0,
+      "offsetY": 0,
+      "snapOnGrid": false
+    }
+  }
+}

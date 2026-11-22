@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mchol:blocks/zephyra_blue_button",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mchol:zephyra_blue_button"
+        }
+      ]
+    }
+  ]
+}

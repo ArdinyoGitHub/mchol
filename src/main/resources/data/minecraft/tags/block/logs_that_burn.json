@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#mchol:zephyra_blue_logs",
+      "required": false
+    }
+  ]
+}

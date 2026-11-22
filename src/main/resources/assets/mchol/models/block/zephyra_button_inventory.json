@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "mchol:block/zephyra_planks",
+    "particle": "mchol:block/zephyra_planks"
+  }
+}

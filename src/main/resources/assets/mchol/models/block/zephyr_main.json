@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/purple_concrete_powder",
+    "up": "mchol:block/zephyrmain",
+    "north": "mchol:block/zleft",
+    "east": "mchol:block/zleft",
+    "south": "mchol:block/zleft",
+    "west": "mchol:block/zleft",
+    "particle": "minecraft:block/purple_concrete_powder"
+  }
+}

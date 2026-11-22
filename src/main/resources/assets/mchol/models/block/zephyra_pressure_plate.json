@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "mchol:block/zephyra_planks",
+    "particle": "mchol:block/zephyra_planks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_sandstone",
+    "mchol:zephyr_main",
+    "mchol:zephyr_stone",
+    "mchol:corrupteddirt",
+    "minecraft:smooth_red_sandstone"
+  ]
+}

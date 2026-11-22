@@ -1,0 +1,11 @@
+{
+  "_fv": 92,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Jetpack",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": "JetpackOnKeyPressed",
+    "onKeyReleased": "JetpackOnKeyReleasedd"
+  }
+}

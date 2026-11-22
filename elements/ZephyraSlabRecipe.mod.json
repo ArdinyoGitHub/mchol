@@ -1,0 +1,29 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "wooden_slab",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:ZephyraPlanks",
+      "CUSTOM:ZephyraPlanks",
+      "CUSTOM:ZephyraPlanks"
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraSlab",
+    "name": "zephyra_slab_recipe",
+    "namespace": "mod"
+  }
+}

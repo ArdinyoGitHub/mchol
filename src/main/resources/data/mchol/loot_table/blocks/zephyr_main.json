@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "mchol:blocks/zephyr_main",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mchol:zephyr_main"
+        }
+      ]
+    }
+  ]
+}

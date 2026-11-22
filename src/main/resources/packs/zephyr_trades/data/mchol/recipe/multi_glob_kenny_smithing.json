@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "mchol:multi_glob_unit",
+  "base": "mchol:kenny",
+  "result": {
+    "id": "mchol:multi_glob_kenny"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 92,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "chest_boat",
+    "unlockingItems": [
+      "CUSTOM:ZephyraBlueBoat"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "CUSTOM:ZephyraBlueBoat",
+      "Blocks.CHEST",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ZephyraBlueChestBoat",
+    "name": "zephyra_blue_chest_boat_recipe",
+    "namespace": "mod"
+  }
+}

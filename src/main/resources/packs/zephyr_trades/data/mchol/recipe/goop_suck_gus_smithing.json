@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "mchol:goop_suck_unit",
+  "base": "mchol:gus",
+  "result": {
+    "id": "mchol:goop_suck_gus"
+  }
+}

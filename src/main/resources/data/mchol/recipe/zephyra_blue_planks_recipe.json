@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "#mchol:zephyra_blue_logs"
+  ],
+  "result": {
+    "id": "mchol:zephyra_blue_planks",
+    "count": 4
+  }
+}

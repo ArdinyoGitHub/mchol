@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mchol:block/zephyra_blue_wall_hanging_sign",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "mchol:block/zephyra_blue_wall_hanging_sign",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "mchol:block/zephyra_blue_wall_hanging_sign"
+    },
+    "facing=west": {
+      "model": "mchol:block/zephyra_blue_wall_hanging_sign",
+      "y": 90
+    }
+  }
+}

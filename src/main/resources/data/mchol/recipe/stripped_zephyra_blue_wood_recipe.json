@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "mchol:stripped_zephyra_blue_log"
+  },
+  "result": {
+    "id": "mchol:stripped_zephyra_blue_wood",
+    "count": 3
+  }
+}

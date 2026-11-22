@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mchol:stripped_zephyra_blue_wood",
+    "mchol:stripped_zephyra_blue_log",
+    "mchol:zephyra_blue_log",
+    "mchol:zephyra_blue_wood"
+  ]
+}

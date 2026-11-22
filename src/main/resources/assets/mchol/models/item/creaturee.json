@@ -1,0 +1,7 @@
+{
+  "parent": "mchol:custom/creature",
+  "textures": {
+    "0": "mchol:block/creature",
+    "particle": "mchol:item/creature"
+  }
+}

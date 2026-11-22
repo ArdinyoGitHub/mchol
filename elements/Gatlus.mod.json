@@ -1,0 +1,68 @@
+{
+  "_fv": 92,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:Gatlussurface"
+    ],
+    "biomesInDimensionCaves": [
+      "CUSTOM:Gatlussurface"
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": "CUSTOM:Corrupteddirt",
+    "fluidBlock": "Blocks.VOID_AIR",
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192,
+    "skyType": "NORMAL",
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": true,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": true,
+    "skyboxTextureUp": "gatlussky",
+    "skyboxTextureDown": "distantspace",
+    "skyboxTextureNorth": "g2",
+    "skyboxTextureSouth": "g4",
+    "skyboxTextureWest": "g",
+    "skyboxTextureEast": "g3",
+    "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": true,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": "",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 0,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Gatlus Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}
